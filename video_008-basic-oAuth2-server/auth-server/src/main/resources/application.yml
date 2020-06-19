@@ -1,5 +1,18 @@
+#http://localhost:8282/oauth/authorize?response_type=code&client_id=mobile&redirect_uri=http://localhost:8080/code&scope=READ
+#http://localhost:8282/oauth/authorize?response_type=code&client_id=web&redirect_uri=http://localhost:8080/code
 server:
   port: 8282
-
-
-
+#spring:#  security:#    user:#      name: admin1
+#      password: abc123
+#      roles:#      - ADMIN
+#      - USER
+#security:#  oauth2:#    client:#      client-id: mobile
+#      client-secret: abc123
+#      access-token-validity-seconds: 3600
+#      authorized-grant-types:#      - authorization_code
+#      - password
+#      - refresh_token
+#      - implicit
+#      - client_credentials
+#      scope:#      - READ
+#      - WRITE#    authorization:#      check-token-access: permitAll
